@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Player />
-      <div className="challenges">
+      <div id="challenges">
         <TimerChallenge title="Easy" targetTime={1} />
         <TimerChallenge title="Not easy" targetTime={5} />
         <TimerChallenge title="Getting tough" targetTime={10} />
